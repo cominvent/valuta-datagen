@@ -1,0 +1,99 @@
+package com.ciber.skatt;
+
+import com.google.gson.Gson;
+
+import java.time.Instant;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+
+/**
+ * Created by janhoy on 16.11.2016.
+ */
+public class Person {
+  protected String kontoNr;
+
+  public String getBirthDate() {
+    return birthDate;
+  }
+
+  protected String birthDate;
+
+  public String getName() {
+    return name;
+  }
+
+  public String getSsn() {
+    return ssn;
+  }
+
+  protected String name;
+  protected String firstName;
+
+  public String getFirstName() {
+    return firstName;
+  }
+
+  public String getLastName() {
+    return lastName;
+  }
+
+  protected String lastName;
+  protected String ssn;
+
+  public Instant getFromDate() {
+    return fromDate;
+  }
+
+  public Instant getToDate() {
+    return toDate;
+  }
+
+  protected Instant fromDate = Instant.parse("2010-01-01T00:00:00Z");
+  protected Instant toDate = Instant.parse("2016-11-01T00:00:00Z");
+
+  public List<Integer> getLinks() {
+    return links;
+  }
+
+  protected List<Integer> links;
+
+  public static Person getRandom(Random random) {
+    Person p = new Person();
+    p.firstName = RandomUtil.randomFirstNameNo();
+    p.lastName = RandomUtil.randomLastNameNo();
+    p.birthDate = RandomUtil.randomBirthDate();
+    p.ssn = RandomUtil.randomSsn(p.birthDate);
+    p.kontoNr = RandomUtil.randomAccount();
+    return p;
+  }
+
+  public void setLinks(List<Integer> links) {
+    this.links = links;
+  }
+  
+  public String toString() {
+    Map<String,Object> map = new HashMap<>();
+    if (name != null)
+      map.put("name", name);
+    if (firstName != null) {
+      map.put("firstName", firstName);
+      map.put("lastName", lastName);
+    }
+    map.put("kontonummer", kontoNr);
+    map.put("ssn", ssn);
+    map.put("fromDate", fromDate);
+    map.put("toDate", toDate);
+    map.put("links", links);
+    return new Gson().toJson(map);
+  }
+
+  public String getKontoNr() {
+    return kontoNr;
+  }
+
+  public void setKontoNr(String kontoNr) {
+    this.kontoNr = kontoNr;
+  }
+}
