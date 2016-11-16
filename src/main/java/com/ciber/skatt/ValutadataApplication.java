@@ -9,13 +9,21 @@ public class ValutadataApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) {
-		if (args.length < 3) {
+    String type;
+    long seed;
+    long rows;
+		if (args.length == 3) {
+      type = args[0];
+      seed = Long.parseLong(args[1]);
+      rows = Long.parseLong(args[2]);
+		} else {
 			System.err.println("Usage: valuta <type> <seed> <rows>");
-			System.exit(2);
-		}
-		String type = args[0];
-		long seed = Long.parseLong(args[1]);
-    long rows = Long.parseLong(args[2]);
+      System.err.println("Using defaults");
+      type = "trans";
+      seed = 123;
+      rows = 5;
+    }
+
 		switch (type) {
 			case "trans":
 				TransGenerator tg = TransGenerator.getInstance();

@@ -1,9 +1,11 @@
 package com.ciber.skatt;
 
 import com.google.gson.Gson;
+import org.springframework.core.io.ClassPathResource;
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Map;
 
 /**
@@ -16,8 +18,9 @@ public class ExchangeRates {
   static {
     Gson gson = new Gson();
     try {
-      ratesStr = new String(Files.readAllBytes(Paths.get(Thread.currentThread().getContextClassLoader().getResource("rates.json").toURI())), "UTF-8");
-      convert = (Map<String, Double>) gson.fromJson(ratesStr, Map.class).get("rates");
+      InputStream is = new ClassPathResource("rates.json").getInputStream();
+      BufferedReader br = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+      convert = (Map<String, Double>) gson.fromJson(br, Map.class).get("rates");
     } catch (Exception e) {
       e.printStackTrace();
     }

@@ -28,7 +28,6 @@ public class Foreign extends Person {
 
   public static Foreign getRandom(Random random) {
     Foreign f = new Foreign();
-    f.name = RandomUtil.randomName(random);
     f.firstName = RandomUtil.randomFirstName();
     f.lastName = RandomUtil.randomLastName();
     f.birthDate = RandomUtil.randomBirthDate();

@@ -1,14 +1,15 @@
 package com.ciber.skatt;
 
-import java.io.IOException;
-import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import org.springframework.core.io.ClassPathResource;
+
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 import static com.ciber.skatt.AbstractGenerator.random;
 
@@ -55,12 +56,11 @@ public class RandomUtil {
   
   public static List<String> readLines(String file) {
     try {
-      Path p = Paths.get(Thread.currentThread().getContextClassLoader().getResource(file).toURI());
-      return Files.readAllLines(p);
-    } catch (URISyntaxException e) {
-      e.printStackTrace();
-      return null;
-    } catch (IOException e) {
+      InputStream is = new ClassPathResource(file).getInputStream();
+      BufferedReader br = new BufferedReader(new InputStreamReader(is));
+      return br.lines().collect(Collectors.toList());
+    } catch (Exception e) {
+      System.err.println("Failed to find file "+file);
       e.printStackTrace();
       return null;
     }
@@ -79,7 +79,7 @@ public class RandomUtil {
   }
 
   public static String randomOrgNo(Random random) {
-    return "9"+Math.round(random.nextFloat()*99999999)+10000000;
+    return "9"+digits(8);
   }
 
   public static String randomAccount() {

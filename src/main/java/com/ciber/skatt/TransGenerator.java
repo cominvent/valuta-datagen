@@ -3,6 +3,7 @@ package com.ciber.skatt;
 import com.google.gson.Gson;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.format.datetime.DateFormatter;
 
 import java.time.Instant;
 import java.util.*;
@@ -130,7 +131,7 @@ public class TransGenerator extends AbstractGenerator {
     
     public String toString() {
       Map<String,Object> map = new HashMap<>();
-      map.put("transdato", new Date(transTime.toEpochMilli()));
+      map.put("transdato", new DateFormatter("yyyy-MM-dd'T'HH:mm:ss'Z'").print(new Date(transTime.toEpochMilli()), Locale.ROOT));
       map.put("nokbelop", amountNo);
       map.put("valutabelop", ExchangeRates.nokTo(amountNo, f.getCountry().getCurrencyCode()));
       map.put("valutakode", f.getCountry().getCurrencyCode());

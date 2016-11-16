@@ -1,18 +1,45 @@
 package com.ciber.skatt;
 
+import org.springframework.core.io.ClassPathResource;
+
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 /**
  * Created by janhoy on 16.11.2016.
  */
 public class Country {
+  private String name;
+  private String code;
+  private String currency;
+  private String currencyCode;
+  
+  private static List<Country> countries;
+
+  static {
+    try {
+      countries = read();
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+  Country(String name, String code, String currency, String currencyCode) {
+    this.name = name;
+    this.code = code;
+    this.currency = currency;
+    this.currencyCode = currencyCode;
+  }
+
+  public Country(String[] arr) {
+    new Country(arr[0], arr[1], arr[2], arr[3]);
+  }
+
   public String getName() {
     return name;
   }
@@ -32,28 +59,6 @@ public class Country {
   public static List<Country> getCountries() {
     return countries;
   }
-
-  private final String name;
-  private final String code;
-  private final String currency;
-  private final String currencyCode;
-  
-  private static List<Country> countries;
-
-  static {
-    try {
-      countries = read();
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
-  }
-
-  Country(String name, String code, String currency, String currencyCode) {
-    this.name = name;
-    this.code = code;
-    this.currency = currency;
-    this.currencyCode = currencyCode;
-  }
   
   public static Country get(String code) {
     return countries.stream().filter(c -> c.code.equals(code)).findFirst().orElse(null);
@@ -68,17 +73,8 @@ public class Country {
   }
   
   public static List<Country> read() throws IOException {
-    try {
-      List<Country> countries = new ArrayList<>();
-      Path p = Paths.get(Thread.currentThread().getContextClassLoader().getResource("countries.csv").toURI());
-      for (String line : Files.readAllLines(p)) {
-        String[] cols = line.split(",");
-        countries.add(new Country(cols[0], cols[1], cols[2], cols[3]));
-      }
-      return countries;
-    } catch (URISyntaxException e) {
-      e.printStackTrace();
-      return null;
-    }
+    InputStream is = new ClassPathResource("countries.csv").getInputStream();
+    BufferedReader br = new BufferedReader(new InputStreamReader(is));
+    return br.lines().map(l -> new Country(l.split(","))).collect(Collectors.toList());
   }
 }
