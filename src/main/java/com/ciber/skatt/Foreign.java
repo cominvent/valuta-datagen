@@ -1,7 +1,10 @@
 package com.ciber.skatt;
 
 import com.google.gson.Gson;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.lang.invoke.MethodHandles;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -10,6 +13,8 @@ import java.util.Random;
  * Created by janhoy on 16.11.2016.
  */
 public class Foreign extends Person {
+  private static final Logger log = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
+
   public String getName() {
     return name;
   }
@@ -40,7 +45,7 @@ public class Foreign extends Person {
   public String toString() {
     Map<String,Object> map = new HashMap<>();
     map.put("name", name);
-    map.put("id", id);
+    map.put("ssn", id);
     map.put("country", country.getName());
     map.put("currency", country.getCurrencyCode());
     return new Gson().toJson(map);

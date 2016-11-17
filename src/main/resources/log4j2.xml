@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <File name="File1" fileName="app.log" bufferedIO="false" advertiseURI="file://output.log" advertise="false">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] sasa %-5level %logger{36} - %msg%n"/>
+    </File>
+  </Appenders>
+  <Loggers>
+    <Logger name="com.simontuffs.onejar.JarClassLoader" level="error" additivity="false">
+      <AppenderRef ref="File1"/>
+    </Logger>
+    <Root level="error">
+      <AppenderRef ref="File1"/>
+    </Root>
+  </Loggers>
+</Configuration>

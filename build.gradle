@@ -1,23 +1,29 @@
-buildscript {
-	ext {
-		springBootVersion = '1.4.2.RELEASE'
-	}
-	repositories {
-		mavenCentral()
-	}
-	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-	}
-}
-
+apply plugin: 'gradle-one-jar'
 apply plugin: 'java'
 apply plugin: 'eclipse'
-apply plugin: 'org.springframework.boot'
+
+defaultTasks 'clean', 'onejar'
+
+task onejar(type: OneJar) {
+    mainClass = 'com.ciber.skatt.ValutadataApplication'
+    archiveName = 'valuta.jar'
+    additionalDir = file('src/main/resources')
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.github.rholder:gradle-one-jar:1.0.4'
+    }
+}
 
 jar {
-	baseName = 'valutadata'
-	version = '0.0.1-SNAPSHOT'
+	baseName = 'valuta'
+	version = '0.1-SNAPSHOT'
 }
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
@@ -26,7 +32,14 @@ repositories {
 }
 
 
-dependencies {
-	compile('org.springframework.boot:spring-boot-starter', 'com.google.code.gson:gson:2.8.0')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
+dependencies { 
+	compile('com.google.code.gson:gson:2.8.0')
+	compile('org.elasticsearch.client:transport:5.0.1')
+    compile('org.apache.logging.log4j:log4j:2.6.2')
+    compile('org.apache.logging.log4j:log4j-api:2.6.2')
+    compile('org.apache.logging.log4j:log4j-core:2.6.2')
+    compile('org.apache.logging.log4j:log4j-slf4j-impl:2.6.2')
+    compile('org.slf4j:slf4j-api:1.7.21')
+    compile('org.slf4j:jcl-over-slf4j:1.7.21')
+    compile('com.lmax:disruptor:3.3.6')
 }

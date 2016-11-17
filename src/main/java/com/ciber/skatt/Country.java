@@ -1,11 +1,13 @@
 package com.ciber.skatt;
 
-import org.springframework.core.io.ClassPathResource;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.invoke.MethodHandles;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
@@ -14,6 +16,8 @@ import java.util.stream.Collectors;
  * Created by janhoy on 16.11.2016.
  */
 public class Country {
+  private static final Logger log = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
+
   private String name;
   private String code;
   private String currency;
@@ -73,7 +77,7 @@ public class Country {
   }
   
   public static List<Country> read() throws IOException {
-    InputStream is = new ClassPathResource("countries.csv").getInputStream();
+    InputStream is = ClassLoader.getSystemResourceAsStream("countries.csv");
     BufferedReader br = new BufferedReader(new InputStreamReader(is));
     return br.lines().map(l -> new Country(l.split(","))).collect(Collectors.toList());
   }

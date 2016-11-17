@@ -1,1156 +1,1574 @@
-Occupations
+Abbey
+Abortion Clinic
+Abrasives Supplier
+Academy
 Accountant
-Accounts Assistant
-Accounts Clerk
-Accounts Manager
-Accounts Staff
-Acoustic Engineer
-Actor
-Actress
-Actuary
-Acupuncturist
-Adjustor
-Administration Assistant
-Administration Clerk
-Administration Manager
-Administration Staff
-Administrator
-Advertising Agent
-Advertising Assistant
-Advertising Clerk
-Advertising Contractor
-Advertising Executive
-Advertising Manager
-Advertising Staff
-Aerial Erector
-Aerobic Instructor
-Aeronautical Engineer
-Agent
-Air Traffic Controller
-Aircraft Designer
-Aircraft Engineer
-Aircraft Maintenance Engineer
-Aircraft Surface Finisher
-Airman
-Airport Controller
-Airport Manager
-Almoner
-Ambulance Controller
-Ambulance Crew
-Ambulance Driver
-Amusement Arcade Worker
+Accounting School
+Acupuncture Clinic
+Acupuncture School
+Acura Dealer
+Adoption Agency
+Advertising Agency
+Aerobics Class
+Aeroplane
+Aerospace Company
+Afghani Restaurant
+African Goods Shop
+African Restaurant
+Aikido School
+Air Filter Supplier
+Airbrushing Service
+Airline
+Airport Hotel
+Airport Terminal
+Airports
+Airsoft Supply Shop
+Airstrip
+Allergist
+Alliance Church
+Alsace Restaurant
+Alternator Supplier
+Aluminium Supplier
+Aluminium Welder
+Ambulance Service
+American Restaurant
+Ammunition Supplier
+Amphitheatre
+Amusement Centre
+Amusement Park
+Amusement Park Ride
 Anaesthetist
-Analyst
-Analytical Chemist
-Animal Breeder
-Anthropologist
-Antique Dealer
-Applications Engineer
-Applications Programmer
-Arbitrator
-Arborist
-Archaeologist
+Anago Restaurant
+Anglican Church
+Animal Feed Shop
+Animal Hospital
+Animal Shelter
+Anodiser
+Antique Shop
+Apartment Building
+Apartment complex
+Apostolic Church
+Appliance
+Appliance Shop
+Appraiser
+Aquarium
+Arboretum
+Archery Club
+Archery Shop
 Architect
-Archivist
-Area Manager
-Armourer
-Aromatherapist
-Art Critic
-Art Dealer
-Art Historian
-Art Restorer
-Artexer
+Architecture School
+Archive
+Arena
+Armenian Church
+Armenian Restaurant
+Army Museum
+Art Centre
+Art Gallery
+Art Museum
+Art School
+Art Supply Shop
 Artist
-Arts
-Assembly Worker
-Assessor
-Assistant
-Assistant Caretaker
-Assistant Cook
-Assistant Manager
-Assistant Nurse
-Assistant Teacher
-Astrologer
-Astronomer
-Attendant
-Au Pair
-Auction Worker
-Auctioneer
+Arts Organisation
+Ashram
+Asian Grocery Shop
+Asian Restaurant
+Asphalt Contractor
+Asturian Restaurant
+Athletic Track
+Athletics field
+Attorney
+Auction House
+Audi Dealer
 Audiologist
-Audit Clerk
-Audit Manager
-Auditor
-Auto Electrician
-Auxiliary Nurse
-Bacon Curer
-Baggage Handler
-Bailiff
-Baker
-Bakery Assistant
-Bakery Manager
-Bakery Operator
-Balloonist
-Bank Clerk
-Bank Manager
-Bank Messenger
-Baptist Minister
-Bar Manager
-Bar Steward
-Barber
-Barmaid
-Barman
+Auditorium
+Austrian Restaurant
+Auto Broker
+Auto Parts Store
+Aviation Consultant
+Awning Supplier
+BMW Dealer
+Baby Clothing Shop
+Baby Shop
+Backpacker Hostel
+Badminton Court
+Bagel Shop
+Bait & Tackle Shop
+Baking Supply Shop
+Ballet School
+Balloon Artist
+Balloon Shop
+Ballroom
+Band
+Bank
+Bankruptcy Lawyer
+Bankruptcy Service
+Banner Shop
+Banquet Hall
+Baptist Church
+Bar
+Bar & Grill
+Bar Stool Supplier
+Barbecue Restaurant
+Barbecue Shop
+Barber Shop
+Barber Supply Shop
+Barn
+Barrel Supplier
 Barrister
-Beautician
-Beauty Therapist
-Betting Shop
-Bill Poster
-Bingo Caller
-Biochemist
-Biologist
+Bartending School
+Baseball
+Baseball Club
+Baseball Field
+Basket Supplier
+Basketball Club
+Basketball Court
+Basque Restaurant
+Bathroom Renovator
+Batting cage centre
+Beach Resort
+Bead Shop
+Bead Wholesaler
+Bearing Supplier
+Beauty Parlour
+Beauty Supply Store
+Bed & Breakfast
+Bed Shop
+Beer Distributor
+Beer shop
+Belgian Restaurant
+Berry Restaurant
+Beverage Store
+Bicycle Hire Shop
+Bicycle Rack
+Bicycle Repair Shop
+Bicycle Shop
+Bingo Hall
+Bird Shop
+Bird Watching Area
+Birth Centre
+Biscuit Shop
+Bistro
 Blacksmith
-Blind Assembler
-Blind Fitter
-Blinds Installer
-Boat Builder
-Body Fitter
-Bodyguard
-Bodyshop
-Book Binder
-Book Seller
-Book-Keeper
-Booking Agent
-Booking Clerk
-Bookmaker
-Botanist
-Branch Manager
-Breeder
-Brewer
-Brewery Manager
-Brewery Worker
-Bricklayer
-Broadcaster
-Builder
-Builders Labourer
-Building Advisor
-Building Control
-Building Engineer
-Building Estimator
-Building Foreman
-Building Inspector
-Building Manager
-Building Surveyor
-Bursar
-Bus Company
-Bus Conductor
-Bus Driver
-Bus Mechanic
-Bus Valeter
-Business Consultant
-Business Proprietor
-Butcher
-Butchery Manager
-Butler
-Buyer
-Cab Driver
+Blood Bank
+Blueprint Service
+Blues Club
+Boarding House
+Boat Builders
+Boat Cover Supplier
+Boat Maintenance
+Boat Ramp
+Boat Rental Agency
+Boat Tour Agency
+Boat Trailer Dealer
+Boating Club
+Boating Instructor
+Bocce Ball Court
+Body Piercing Shop
+Book Publisher
+Book Shop
+Bookbinder
+Bookkeeping Service
+Boot Repair Shop
+Boot Shop
+Botanical Garden
+Boutique
+Boutique Hotel
+Bowling Supply Shop
+Brake Shop
+Brasserie
+Brewery
+Brewing Supply Shop
+Bridal Shop
+Bridge
+Bridge Club
+British Restaurant
+Brunch Restaurant
+Bubble Tea
+Buddhist Temple
+Budget Hotel
+Buffet Restaurant
+Buick Dealer
+Building Society
+Building inspector
+Burglar Alarm Shop
+Burmese Restaurant
+Burrito Restaurant
+Bus Charter
+Bus Interchange
+Bus Stop
+Bus Ticket Agency
+Bus Tour Agency
+Bus company
+Business Centre
+Business District
+Business Park
+Business School
+CD Shop
+CV Service
+Cabin Rental Agency
 Cabinet Maker
-Cable Contractor
-Cable Jointer
-Cable TV Installer
-Cafe Owner
-Cafe Staff
-Cafe Worker
-Calibration Manager
-Camera Repairer
-Cameraman
+Cabinet Shop
+Cable Car Station
+Cable Provider
+Cadillac Dealer
+Café
+Cajun Restaurant
+Cake Shop
+Call Centre
+Camera Repair Shop
+Camera shop
+Camp
+Campervan Park
+Camping Ground
+Camping Shop
+Canadian Restaurant
+Candle Shop
+Cannery
+Canoe & Kayak
+Canteen
+Car Alarm Supplier
+Car Auction
+Car Battery Shop
+Car Body Shop
+Car Breaker
 Car Dealer
-Car Delivery Driver
-Car Park Attendant
-Car Salesman
-Car Valet
-Car Wash Attendant
-Care Assistant
-Care Manager
-Careers Advisor
-Careers Officer
-Caretaker
-Cargo Operator
+Car Factory
+Car Park
+Car Rental
+Car Repair
+Car Service
+Car Stereo Shop
+Car Wash
+Car and Motor
+Caravan Park
+Caravan Repair Shop
+Caravan Storage
+Caravan Supply
+Cardiologist
 Carpenter
-Carpet Cleaner
 Carpet Fitter
-Carpet Retailer
-Carphone Fitter
-Cartographer
-Cartoonist
-Cashier
-Casual Worker
+Carpet Retail Shop
+Cash & Carry
+Cashpoint location
+Casino
+Castle
 Caterer
-Catering Consultant
-Catering Manager
-Catering Staff
-Caulker
-Ceiling Contractor
-Ceiling Fixer
-Cellarman
-Chambermaid
-Chandler
-Chaplain
-Charge Hand
-Charity Worker
-Chartered
-Chartered Accountant
-Chauffeur
-Chef
+Cathedral
+Catholic Church
+Catholic School
+Cemetery
+Chamber of Commerce
+Chanko Restaurant
+Charity
+Cheese Shop
+Chemical Plant
 Chemist
-Chicken Chaser
-Child Minder
-Childminder
+Chess Instructor
+Chevrolet Dealer
+Chicken Hatchery
+Chicken Restaurant
+Child Care Centre
+Child Psychologist
+Childcare Agency
+Children's Hospital
+Children's Museum
+Chilean Restaurant
 Chimney Sweep
-China Restorer
-Chiropodist
+Chinatown
+Chinaware shop
+Chinese Restaurant
 Chiropractor
-Choreographer
-Church Officer
-Church Warden
-Cinema Manager
-Circus Proprietor
-Circus Worker
-Civil Engineer
-Civil Servant
-Claims Adjustor
-Claims Assessor
-Claims Manager
+Chocolate Shop
+Christian Church
+Christmas Shop
+Chrysler Dealer
+Church
+Cider Mill
+Cigar Shop
+Cinema
+Circus
+City Centre
+City Courthouse
+City Hall
+Civic Centre
+Civil Engineering
+Cladding contractor
 Clairvoyant
-Classroom Aide
-Cleaner
+Classified Ads
+Cleaning Service
+Cleaning Services
 Clergyman
-Cleric
-Clerk
-Commissioned
+Clinic
+Clothing Shop
+Club
+Co-working Space
+Coast Guard Station
+Cocktail Bar
+Coffee Shop
+Coin Dealer
+Collectibles Shop
+College
+Colo-rectal Surgeon
+Comedy Club
+Comic book shop
+Commercial Printer
+Property Inspector
+Community College
+Community Garden
+Community centre
+Commuter train
+Computer Consultant
+Computer Service
+Computer Shop
+Concert Hall
+Concrete Contractor
+Condiments Supplier
+Confectionery Store
+Conference Centre
+Conference Hotel
 Consultant
-Coroner
-Councillor
+Contractor
+Convenience Shop
+Convent
+Convention centre
+Cooking School
+Cooperative Bank
+Coppersmith
+Copy Shop
+Corporate office
+Cosmetic Dentist
+Cosmetics Shop
+Costume Shop
+Cottage
+Cottage Rental
+Cotton Mill
+Council
 Counsellor
-Dealer
-Decorator
-Delivery Driver
-Doctor
-Driver
-Economist
-Editor
-Employee
-Employment
+Country Club
+Courier Service
+Court Reporter
+Crêperie
+Crab restaurant
+Craft shop
+Crane Hire Company
+Crane Service
+Cremation Ground
+Creole Restaurant
+Cricket Ground
+Croatian Restaurant
+Cruise Agency
+Cruise Line Company
+Cuban Restaurant
+Cultural centre
+Curling club
+Curtain shop
+Custom Home Builder
+Custom T-shirt Shop
+Customs Broker
+Cutlery Shop
+Czech Restaurant
+DJ Service
+DJ Supply Shop
+DVD Shop
+Dairy
+Dairy Farm
+Dairy Products Shop
+Dance Company
+Dance Hall
+Dance School
+Dance Shop
+Danish Restaurant
+Dart Supply Shop
+Day Spa
+Deaf Church
+Deaf Service
+Decal Supplier
+Deck Builder
+Deli
+Deli Shop
+Delicatessen
+Delivery Company
+Delivery Restaurant
+Delivery Service
+Demolition Company
+Dental Clinic
+Dental Laboratory
+Dental School
+Dental Supply Shop
+Dentist
+Denture Care Centre
+Department Store
+Dermatologist
+Dessert Restaurant
+Dessert Shop
+Diabetes Centre
+Diabetologist
+Diagnostic Centre
+Dialysis Centre
+Diamond Buyer
+Diamond Merchant
+Digital Printer
+Dim Sum Restaurant
+Diner
+Dinner Theatre
+Disability Taxi
+Disc Golf Course
+Disco Club
+Discount Shop
+Discount Store
+District Attorney
+District Justice
+Dive Shop
+Divorce Lawyer
+Divorce Service
+Dock Builder
+Dodge Dealer
+Dog Boarding Kennel
+Dog Breeder
+Dog Day Care Centre
+Dog Park
+Dog Sitter
+Dog Trainer
+Dog Walker
+Dojo Restaurant
+Doll Shop
+Donations Centre
+Doughnut Shop
+Drama School
+Dress Shop
+Dressmaker
+Dried Flower Shop
+Drilling Contractor
+Drive-in Cinema
+Driveshaft Shop
+Driving School
+Drum Shop
+Dry Cleaner
+Dry Ice Supplier
+Dump Truck Dealer
+Dump Truck Service
+Dumpling Restaurant
+Dutch Restaurant
+Duty Free Shop
+E-commerce Service
+ENT Specialist
+Eclectic Restaurant
+Egg Supplier
+Egyptian Restaurant
+Electric Motor Shop
+Electrical Engineer
+Electrician
+Electricity Company
+Embassy & Consulate
+Embroidery Service
+Embroidery Shop
+Emergency Clinic
+Emergency Training
+Employment Lawyer
+Endocrinologist
+Endodontist
 Engineer
-English Teacher
+English Restaurant
+Engraver
 Entertainer
-Envoy
-Executive
-Farmer
-Fireman
-Floor Layer
-Floor Manager
+Envelope Supplier
+Equestrian Centre
+Eritrean Restaurant
+Escort Service
+Escrow Service
+Espresso Bar
+Estate Agents
+Estate Liquidator
+Estate Valuer
+Ethnic Restaurant
+Ethnographic Museum
+European Restaurant
+Evangelical Church
+Event Ticket Seller
+Events Venue
+Exhibit
+Exporter
+Extended Stay Hotel
+Eye Care Clinic
+Fabric Shop
+Fabric Wholesaler
+Facial Spa
+Factory Outlet Shop
+Fairground
+Faith school
+Falafel Restaurant
+Family Counsellor
+Family Lawyer
+Family Restaurant
+Farm
+Farm Stay
+Farmers' Market
+Fashion Designer
+Fastener Supplier
+Fence Contractor
+Fence Supply Shop
+Fencing School
+Ferry Wharf
+Fertiliser Supplier
+Fertility Clinic
+Fertility Doctor
+Festival
+Fibreglass Company
+Filipino Restaurant
+Film Rental Kiosk
+Film Rental Store
+Financial Advisor
+Finnish Restaurant
+Fire Alarm Supplier
+Fire Station
+Firearms Academy
+Fireplace shop
+Firewood Supplier
+Fireworks shop
+First Aid Station
+Fish & Chips Shop
+Fish Market
+Fishery
+Fishing Camp
+Fishing Charter
+Fishing Club
+Fishing Jetty
+Fishing shop
+Fitness Centre
+Flag Shop
+Flat Complex
+Fleamarket
+Flight School
+Flooring Contractor
+Flooring Shop
 Florist
-Flour Miller
-Flower Arranger
-Flying Instructor
-Foam Convertor
-Food Processor
-Footballer
-Foreman
-Forensic Scientist
-Forest Ranger
-Forester
-Fork Lift Truck Driver
-Forwarding Agent
-Foster Parent
-Foundry Worker
-Fraud Investigator
-French Polisher
-Fruiterer
-Fuel Merchant
-Fund Raiser
-Funeral Director
-Funeral Furnisher
-Furnace Man
-Furniture Dealer
-Furniture Remover
-Furniture Restorer
-Furrier
-Gallery Owner
-Gambler
-Gamekeeper
-Gaming Board Inspector
-Gaming Club Manager
-Gaming Club Proprietor
-Garage Attendant
-Garage Foreman
-Garage Manager
-Garda
-Garden Designer
-Gardener
-Gas Fitter
-Gas Mechanic
-Gas Technician
-Gate Keeper
+Flour Mill
+Fondue Restaurant
+Food Broker
+Food Court
+Foodbank
+Football Shop
+Football club
+Football pitch
+Ford Dealer
+Foreclosure Service
+Foreign Consulate
+Forestry Service
+Forklift Dealer
+Formal Wear Shop
+Fortress
+Foster Care Service
+Foundation
+Foundry
+Fountain Contractor
+Foursquare Church
+Free Clinic
+French Restaurant
+Friends Church
+Frozen Yoghurt Shop
+Fugu Restaurant
+Full Gospel Church
+Funeral Home
+Fur Service
+Furnace Shop
+Furniture Maker
+Furniture Shop
+Futon Store
+Futsal Court
+GMC Dealer
+GP
+GPS Supplier
+Galician Restaurant
+Gambling Instructor
+Game Shop
+Garage
+Garage Builder
+Garden
+Garden Centre
+Gas Agency
+Gas Logs Supplier
+Gastroenterologist
+Gastropub
+Gated Community
+Gay Bar
+Gazebo
+Gazebo Builder
+Gemstone Jeweler
 Genealogist
-General Practitioner
-Geologist
-Geophysicist
-Gilder
-Glass Worker
-Glazier
+Georgian Restaurant
+German Restaurant
+Geyser
+Ghost Town
+Gift Shop
+Gift basket shop
+Glass & Mirror Shop
+Glass Blower
+Go-Kart Track
+Gold Dealer
 Goldsmith
-Golf Caddy
-Golf Club Professional
-Golfer
-Goods Handler
-Governor
-Granite Technician
+Golf Cart Dealer
+Golf Club
+Golf Course
+Golf Course Builder
+Golf Driving Range
+Golf Instructor
+Golf Resort
+Gospel Church
+Government Office
+Government office
+Graduate University
+Grain Elevator
+Granite Supplier
 Graphic Designer
-Graphologist
-Grave Digger
-Gravel Merchant
-Green Keeper
+Greek Restaurant
 Greengrocer
-Grocer
-Groom
-Ground Worker
-Groundsman
-Guest House Owner
-Guest House Proprietor
-Gun Smith
-Gynaecologist
-HGV Driver
-HGV Mechanic
+Greetings Card Shop
+Grocery Store
+Group Home
+Guest House
+Guest Ranch
+Guitar Instructor
+Guitar Shop
+Gun Club
+Gun Shop
+Gurdwara
+Gymnastics Club
+Gyro Restaurant
+HIV Testing Center
+HVAC Contractor
+Haematologist
+Hair Centre
 Hairdresser
+Haitian Restaurant
+Halfway House
+Hand Surgeon
+Handball Court
+Handicraft Museum
 Handyman
-Hardware Dealer
-Haulage Contractor
-Hawker
-Health Advisor
-Health And Safety
-Health Care Assistant
+Hardware Shop
+Hat Shop
+Haunted House
+Hawaiian Goods Shop
+Hawaiian Restaurant
+Hay Supplier
+Head Start Centre
 Health Consultant
-Health Nurse
-Health Planner
-Health Service
-Health Therapist
-Health Visitor
-Hearing Therapist
-Heating Engineer
-Herbalist
-Highway Inspector
-Hire Car Driver
-Historian
-History Teacher
-Hod Carrier
-Home Economist
-Home Help
-Homecare Manager
+Health Food Shop
+Hearing Aid Shop
+Heliport
+Helium Gas Supplier
+Herb Shop
+Heritage Museum
+Hiking Area
+Hindu Temple
+Hispanic Church
+Historical Landmark
+Historical Society
+History Museum
+Hoagie Restaurant
+Hobby Shop
+Hockey Club
+Hockey Field
+Hockey Supply Shop
+Holding Company
+Holiday Flat
+Holiday Park
+Home Audio Shop
+Home Builder
+Home Care Service
+Home Theatre Shop
+Homeless Service
+Homeless Shelter
 Homeopath
-Homeworker
-Hop Merchant
+Homewares Store
+Honda Dealer
+Honduran Restaurant
+Honey Producer
+Hookah Bar
 Horse Breeder
-Horse Dealer
-Horse Riding Instructor
-Horse Trader
+Horse Riding School
 Horse Trainer
-Horticultural Consultant
-Horticulturalist
-Hosiery Mechanic
-Hosiery Worker
-Hospital Consultant
-Hospital Doctor
-Hospital Manager
-Hospital Orderly
-Hospital Technician
-Hospital Warden
-Hospital Worker
-Hostess
-Hot Foil Printer
-Hotel Consultant
-Hotel Worker
-Hotelier
-Househusband
-Housekeeper
-Housewife
-Housing Assistant
-Housing Officer
-Housing Supervisor
-Hygienist
-Hypnotherapist
-Hypnotist
-IT Consultant
-IT Manager
-IT Trainer
-Ice Cream Vendor
-Illustrator
-Immigration Officer
-Import Consultant
+Hose Supplier
+Hospice
+Hospital
+Hot Dog Restaurant
+Hot Dog Stand
+Hot Tub Shop
+Hotel
+Hotel downtown
+House Sitter
+Housing Estate
+Housing Offices
+Hub Cap Supplier
+Hunan Restaurant
+Hunting Area
+Hunting Club
+Hunting Preserve
+Hygiene Service
+Hypermarket
+Hyundai Dealer
+IT security service
+Ice Cream Shop
+Ice Skating Club
+Ice Skating Rink
+Ice Supplier
+Imax Cinema
+Immigration Lawyer
 Importer
-Independent Means
-Induction Moulder
-Industrial Chemist
-Industrial Consultant
-Injection Moulder
-Inspector
-Instructor
-Instrument Engineer
-Instrument Maker
-Instrument Supervisor
-Instrument Technician
-Insurance Agent
-Insurance Assessor
-Insurance Broker
-Insurance Consultant
-Insurance Inspector
-Insurance Staff
-Interior Decorator
+Incense Shop
+Indian Grocery Shop
+Indian Restaurant
+Indoor Golf Course
+Indoor Playground
+Industrial Building
+Industrial Estate
+Infiniti Dealer
+Information Bureau
+Inn
+Insulation Company
+Insurance Agency
+Insurance Company
+Insurance Lawyer
+Insurance School
 Interior Designer
-Interpreter
-Interviewer
-Inventor
-Investigator
-Investment Advisor
-Investment Banker
-Investment Manager
-Investment Strategist
-Ironmonger
-Janitor
-Jazz Composer
+Internet Cafe
+Internist
+Investment Banking
+Investment Service
+Irish Goods Shop
+Irish Pub
+Irish Restaurant
+Iron Works
+Israeli Restaurant
+Isuzu Dealer
+Italian Food Shop
+Italian Restaurant
+Izakaya Restaurant
+Jaguar Dealer
+Jain Temple
+Jamaican Restaurant
+Japanese Restaurant
+Japanese Steakhouse
+Japanese Sweet Shop
+Jazz Club
+Jeep Dealer
 Jeweller
-Jewellery
-Jockey
-Joiner
-Joinery Consultant
-Journalist
-Judge
-Keep Fit Instructor
-Kennel Hand
-Kitchen Worker
-Knitter
-Labelling Operator
-Laboratory Analyst
-Labourer
-Laminator
-Lampshade Maker
-Land Agent
+Jewellery Buyer
+Jewellery Designer
+Jewellery Engraver
+Jewellery Store
+Jewellery Valuer
+Jewish Restaurant
+Jiu Jitsu School
+Job Centre
+Judo School
+Juice bar
+Kaiseki Restaurant
+Karaoke Bar
+Karate School
+Kerosene Supplier
+Kia Dealer
+Kickboxing School
+Kitchen Renovator
+Kitchen Supply shop
+Kitchenware Shop
+Kite Shop
+Knit Shop
+Knitting Instructor
+Korean Church
+Korean Food Shop
+Korean Restaurant
+Kosher Food Shop
+Kosher Restaurant
+Kung Fu School
+LASIK Surgeon
+Laboratory
+Lamination Service
+Lamp Repair Service
+Lamp Shade Supplier
+Land Rover Dealer
 Land Surveyor
-Landlady
-Landlord
-Landowner
-Landworker
-Lathe Operator
-Laundry Staff
-Laundry Worker
-Lavatory Attendant
-Law Clerk
-Lawn Mower
-Lawyer
-Leaflet Distributor
-Leather Worker
-Lecturer
-Ledger Clerk
-Legal Advisor
-Legal Assistant
-Legal Executive
-Legal Secretary
-Letting Agent
-Liaison Officer
-Librarian
-Library Manager
-Licensed Premises
-Licensee
-Licensing
-Lifeguard
-Lift Attendant
-Lift Engineer
-Lighterman
-Lighthouse Keeper
-Lighting Designer
-Lighting Technician
-Lime Kiln Attendant
-Line Manager
-Line Worker
-Lineman
-Linguist
-Literary Agent
-Literary Editor
-Lithographer
-Litigation Manager
-Loans Manager
-Local Government
-Lock Keeper
+Landscape Architect
+Landscape Designer
+Landscape Gardener
+Language School
+Laotian Restaurant
+Laser Tag Centre
+Launderette
+Laundry
+Laundry Service
+Law College
+Law Library
+Law firm
+Lawn Care Service
+Lawn Mower Shop
+Learning Centre
+Leather Goods Shop
+Leather Wholesaler
+Lebanese Restaurant
+Legal Aid Agency
+Legal Services
+Legion
+Lexus Dealer
+Library
+Licence Office
+Lift Service
+Light Bulb Supplier
+Lighthouse
+Lighting Shop
+Limousine Service
+Linen Shop
+Lingerie shop
+Liquidator
+Literacy Program
+Little League Club
+Little League Field
+Live Music Venue
+Live Show
+Livestock Breeder
+Livestock Dealer
+Livestock Producer
+Loan Agency
+Lobster Restaurant
 Locksmith
-Locum Pharmacist
-Log Merchant
-Lorry Driver
-Loss Adjustor
-Loss Assessor
-Lumberjack
-Machine Fitters
-Machine Minder
-Machine Operator
-Machine Setter
-Machine Tool
-Machine Tool Fitter
-Machinist
+Lodge
+Log Home Builder
+Logging Contractor
+Logistics Service
+Lotto Outlet
+Lounge
+Luggage Shop
+Lutheran Church
+Luxury Hotel
+MOT Centre
+MRI Center
+Magazine Publisher
+Magic Shop
 Magician
-Magistrate
-Magistrates Clerk
-Maid
-Maintenance Fitter
-Make Up Artist
-Manicurist
-Manufacturing
-Map Mounter
-Marble Finisher
-Marble Mason
+Malay Restaurant
+Maltese Restaurant
+Mammography Service
+Manchester Store
+Mandarin Restaurant
+Manufacturer
+Map shop
+Mapping Service
+Marble Contractor
+Marble Store
+Marche Restaurant
+Marina
 Marine Broker
-Marine Consultant
-Marine Electrician
-Marine Engineer
-Marine Geologist
-Marine Pilot
-Marine Surveyor
-Market Gardener
-Market Research
-Market Researcher
-Market Trader
-Marketing Agent
-Marketing Assistant
-Marketing Coordinator
-Marketing Director
-Marketing Manager
-Marquee Erector
+Marine Supply Shop
+Maritime Museum
+Market
+Marketing Agency
+Marriage Counsellor
+Martial Arts School
+Masonry Contractor
+Masonry Supply Shop
+Massage School
+Massage Spa
+Massage Supply Shop
 Massage Therapist
-Masseur
-Masseuse
-Master Mariner
-Materials Controller
-Materials Manager
-Mathematician
-Maths Teacher
-Matron
-Mattress Maker
-Meat Inspector
+Maternity Shop
+Mattress Shop
+Mausoleum Builder
+Mazda Dealer
+Meat Packer
+Meat Processor
 Meat Wholesaler
 Mechanic
-Medal Dealer
-Medical Advisor
-Medical Assistant
-Medical Consultant
-Medical Officer
-Medical Physicist
-Medical Practitioner
-Medical Researcher
-Medical Secretary
-Medical Student
-Medical Supplier
-Medical Technician
-Merchandiser
-Merchant
-Merchant Banker
-Merchant Seaman
-Messenger
-Metal Dealer
-Metal Engineer
+Media Company
+Mediation Service
+Medical Centre
+Medical Examiner
+Medical Group
+Medical Laboratory
+Medical School
+Medical Spa
+Meditation Centre
+Meditation Class
+Meeting Room
+Memorial Park
+Men's Clothes Shop
+Mennonite Church
+Mental Hospital
+Messianic Synagogue
+Metal Fabricator
+Metal Finisher
 Metal Polisher
-Metal Worker
-Metallurgist
-Meteorologist
-Meter Reader
-Microbiologist
+Metal Supplier
+Methodist Church
+Mexican Goods Shop
+Mexican Grocers
+Mexican Restaurant
+Microbrewery
 Midwife
-Military Leader
-Milklady
-Milkman
-Mill Operator
-Mill Worker
-Miller
-Milliner
-Millwright
-Miner
-Mineralologist
-Minibus Driver
-Minicab Driver
+Military Base
+Military Cemetery
+Mill
+Millwork Shop
+Mine
+Miniatures Shop
+Mining Company
 Mining Consultant
-Mining Engineer
-Money Broker
-Moneylender
-Mooring Contractor
+Ministry of Health
+Mission
+Mitsubishi Dealer
+Mobile Home Dealer
+Mobile Money Agent
+Mobile Phone Shop
+Mobile Tower
+Model Shop
+Model Train Shop
+Modelling School
+Modelling agency
+Modern Art Museum
+Modular Home Dealer
+Monastery
+Money Order Service
+Monorail Station
+Montessori School
+Monument
+Monument Maker
+Moped Dealer
+Moravian Church
+Moroccan Restaurant
 Mortgage Broker
-Mortician
-Motor Dealer
-Motor Engineer
-Motor Fitter
-Motor Mechanic
-Motor Racing
-Motor Trader
-Museum Assistant
-Museum Attendant
+Mortgage Lender
+Mortuary
+Mosque
+Motel
+Motorbike Dealer
+Motorbike Shop
+Motorsports Shop
+Motorway Services
+Motorway services
+Moulding Supplier
+Mountain Cabin
+Mover
+Movie Studio
+Moving Supply Shop
+Mulch Supplier
+Museum
+Museum of Zoology
+Music Box Shop
+Music School
 Music Teacher
+Music shop
 Musician
+Nail Salon
 Nanny
-Navigator
-Negotiator
+Nappy Service
+National Forest
+National Museum
+National Park
+National Reserve
+Natural Foods Shop
+Nature Reserve
+Naturopath
+Needlecraft shop
+Needlework Shop
+Neon Sign Shop
+Neonatal Doctor
+Nepalese Restaurant
+Nephrologist
 Neurologist
+New Age Church
+News Service
 Newsagent
-Night Porter
-Night Watchman
-Nuclear Scientist
-Nun
-Nurse
-Nursery Assistant
-Nursery Nurse
-Nursery Worker
-Nurseryman
-Nursing Assistant
-Nursing Auxiliary
-Nursing Manager
-Nursing Sister
+Newsagents
+Newspaper
+Newspaper Publisher
+Nightclub
+Nissan Dealer
+Noodle Shop
+Notary Public
+Nuclear Power Plant
+Nudist Resort
+Nursery School
+Nursing Agency
+Nursing College
+Nursing Home
+Nut Shop
 Nutritionist
-Off Shore
-Office Manager
-Office Worker
-Oil Broker
-Oil Rig Crew
-Opera Singer
-Operations
-Operative
-Operator
-Optical
-Optical Advisor
-Optical Assistant
-Optician
+Obanzai Restaurant
+Observation Deck
+Observatory
+Oden Restaurant
+Off-Road Area
+Off-licence
+Off-road Race Track
+Oil Change Service
+Oil Refinery
+Old Age Home
+Oldsmobile Dealer
+Oncologist
+Op Shop
+Open-Air Museum
+Opera Company
+Opera House
+Ophthalmologist
 Optometrist
-Orchestral
-Organiser
-Organist
-Ornamental
-Ornithologist
-Orthopaedic
-Orthoptist
+Optometrist Shop
+Oral Surgeon
+Orchard
+Orchid Grower
+Organic Restaurant
+Oriental Art Museum
+Oriental Goods Shop
+Oriental Rug Shop
+Orphanage
+Orthodontist
+Orthodox Church
+Orthodox Synagogue
+Orthopaedic surgeon
 Osteopath
-Outdoor Pursuits
-Outreach Worker
-Packaging
-Packer
-Paediatrician
-Paint Consultant
-Painter
-Palaeobotanist
-Palaeontologist
-Pallet Maker
-Panel Beater
-Paramedic
-Park Attendant
-Park Keeper
-Park Ranger
-Partition Erector
-Parts Man
-Parts Manager
-Parts Supervisor
+Outboard Motor Shop
+Outdoor sports shop
+Outlet
+Oyster Supplier
+Pachinko Parlour
+Paediatric Dentist
+Pagoda
+Pain Control Clinic
+Paint shop
+Paintball Centre
+Painting
+Palace
+Pallet Supplier
+Paper Mill
+Park and Garden
+Parochial School
 Party Planner
-Pasteuriser
-Pastry Chef
-Patent Agent
-Patent Attorney
+Party shop
+Passport Office
+Pasta Shop
+Pastry Shop
+Patent Lawyer
 Pathologist
-Patrolman
-Pattern Cutter
-Pattern Maker
-Pattern Weaver
+Patisserie
+Paving Contractor
 Pawnbroker
-Payroll Assistant
-Payroll Clerk
-Payroll Manager
-Payroll Supervisor
-Personnel Officer
-Pest Controller
-Pet Minder
-Pharmacist
-Philatelist
+Payphone
+Pediatrician
+Pentecostal Church
+Perfume Store
+Periodontist
+Persian Restaurant
+Personal Trainer
+Peruvian Restaurant
+Pet Care Store
+Pet Cemetery
+Pet Groomer
+Pet Shop
+Pet Sitter
+Pet Trainer
+Petrol Station
+Pho Restaurant
+Photo Lab
 Photographer
+Photography Service
+Photography Shop
+Physiatrist
 Physician
-Physicist
-Physiologist
 Physiotherapist
-Piano Teacher
-Piano Tuner
-Picture Editor
-Picture Framer
-Picture Reseacher
-Pig Man
-Pig Manager
-Pilot
-Pipe Fitter
-Pipe Inspector
-Pipe Insulator
-Pipe Layer
-Planning Engineer
-Planning Manager
-Planning Officer
-Planning Technician
-Plant Attendant
-Plant Driver
-Plant Engineer
-Plant Fitter
-Plant Manager
-Plant Operator
+Piano Bar
+Piano Instructor
+Piano Shop
+Piano tuner
+Picnic Ground
+Pie Shop
+Pier
+Pilates Studio
+Pilgrimage Place
+Pinatas Supplier
+Pipe Supplier
+Pizza Delivery
+Pizza Restaurant
+Pizza Takeaway
+Place of Worship
+Planetarium
+Plant Nursery
 Plasterer
-Plastics Consultant
-Plastics Engineer
-Plate Layer
-Plater
-Playgroup Assistant
-Playgroup Leader
+Plastic Surgeon
+Playground
 Plumber
+Plumbers' merchant
+Plywood Supplier
+Po’ Boys Restaurant
 Podiatrist
-Police Officer
-Polisher
-Pool Attendant
-Pools Collector
-Porter
-Portfolio Manager
-Post Sorter
-Postman
-Postmaster
-Postwoman
-Potter
-Practice Manager
-Preacher
-Precision Engineer
-Premises
-Premises Security
-Press Officer
-Press Operator
-Press Setter
-Presser
-Priest
-Print Finisher
-Printer
-Prison Chaplain
-Prison Officer
-Private Investigator
-Probation Officer
-Probation Worker
-Procurator Fiscal
-Produce Supervisor
-Producer
-Product Installer
-Product Manager
-Production Engineer
-Production Hand
-Production Manager
-Production Planner
-Professional Boxer
-Professional Racing
-Professional Wrestler
-Progress Chaser
-Progress Clerk
-Project Co-ordinator
-Project Engineer
-Project Leader
-Project Manager
-Project Worker
-Projectionist
-Promoter
-Proof Reader
-Property Buyer
-Property Dealer
+Police Station
+Police Supply Shop
+Polish Restaurant
+Political Party
+Polygraph Service
+Pond Contractor
+Pond Fish Supplier
+Pontiac Dealer
+Pony Ride Service
+Popcorn Shop
+Porsche Dealer
+Portrait Studio
+Post Office/Courier
+Post Shop
+Postbox Supplier
+Poster Shop
+Pottery shop
+Poultry Farm
+Power Station
+Pre-school
+Preparatory School
+Presbyterian Church
+Pretzel Shop
+Primary School
+Primary school
+Printing Shop
+Prison
+Private Golf Course
+Private Hospital
+Private School
+Private University
+Probation Office
+Process Server
+Produce Wholesaler
+Propane Supplier
+Propeller Shop
+Property Consultant
 Property Developer
-Property Manager
+Property Lawyer
 Property Valuer
-Proprietor
+Protestant Church
 Psychiatrist
-Psychoanalyst
 Psychologist
 Psychotherapist
-Public House Manager
-Public Relations Of?cer
-Publican
-Publicity Manager
+Pub
+Public Golf Course
+Public Library
+Public Toilet
+Public University
 Publisher
-Publishing Manager
-Purchase Clerk
-Purchase Ledger Clerk
-Purchasing Assistant
-Purchasing Manager
-Purser
-Quality Controller
-Quality Engineer
-Quality Inspector
-Quality Manager
-Quality Technician
-Quantity Surveyor
-Quarry Worker
-Racehorse Groom
-Racing Organiser
-Radio Controller
-Radio Director
-Radio Engineer
-Radio Operator
-Radio Presenter
-Radio Producer
-Radiographer
+Pulmonologist
+Pumpkin Patch
+Pyramid
+Quad Bike Dealer
+Quaker Church
+Quarry
+Quilt Shop
+RSA
+Racecourse
+Racetrack
+Racing Car Dealer
+Racquetball Club
+Radiator Shop
+Radio Station
+Radio Tower
 Radiologist
-Rally Driver
-Receptionist
-Recorder
-Records Supervisor
-Recovery Vehicle Coordinator
-Recreational
-Recruitment Consultant
-Rector
+Raft Trip Outfitter
+Rail Museum
+Railing Contractor
+Railway Company
+Railway Contractor
+Ramen Restaurant
+Ranching
+Rare Book Shop
+Raw Food Restaurant
+Real Estate Agency
+Real estate college
+Record Shop
+Recording Studio
+Recreation Centre
+Recruiter
+Recruitment Agency
+Reenactment Site
 Reflexologist
-Refractory Engineer
-Refrigeration Engineer
-Refuse Collector
-Registrar
-Regulator
-Relocation Agent
-Remedial Therapist
-Rent Collector
-Rent Offcer
-Repair Man
-Repairer
-Reporter
-Representative
-Reprographic Assistant
-Research Analyst
-Research Consultant
-Research Director
-Research Scientist
-Research Technician
-Researcher
-Resin Caster
-Restaurant Manager
-Restaurateur
-Restorer
-Retired
-Revenue Clerk
-Revenue Officer
-Riding Instructor
-Rig Worker
-Rigger
-Riveter
-Road Safety Officer
-Road Sweeper
-Road Worker
-Roadworker
-Roof Tiler
-Roofer
-Rose Grower
-Royal Marine
-Rug Maker
-Saddler
-Safety Officer
-Sail Maker
-Sales Administrator
-Sales Assistant
-Sales Director
-Sales Engineer
-Sales Executive
-Sales Manager
-Sales Representative
-Sales Support
-Salesman
-Saleswoman
-Sand Blaster
-Saw Miller
-Scaffolder
-School Crossing
-School Inspector
-Scientific Officer
-Scientist
-Scrap Dealer
+Reform Synagogue
+Reformed Church
+Refrigerator Shop
+Refugee Camp
+Regional Airport
+Registry Office
+Reiki Therapist
+Remittance Service
+Repair Service
+Reptile Shop
+Research Foundation
+Research Institute
+Resort
+Restaurant
+Retirement Village
+Retreat Centre
+Rheumatologist
+Road Contractor
+Rock Climbing
+Rock Climbing Gym
+Rock Shop
+Rodeo
+Roller Coaster
+Roller Skating Rink
+Roman Restaurant
+Romanian Restaurant
+Roofing Service
+Roofing Supply Shop
+Rowing Club
+Rubber Stamp Shop
+Rubbish Dump
+Rug Shop
+Rugby
+Rugby Field
+Running Shop
+Russian Restaurant
+SCUBA Instructor
+SCUBA Tour Agency
+STD Testing Service
+Saab Dealer
+Safe & Vault Shop
+Sailing School
+Sailmaker
+Salad Shop
+Sandwich Shop
+Saturn Dealer
+Sauna
+Savings Bank
+Saw Mill
+Scenic Point
+School
+School Board
+School Bus Service
+School For The Deaf
+School Supply Shop
+School of Computing
+Science Museum
+Scooter Repair Shop
+Scrap Yard
+Scrap yard
 Screen Printer
-Screen Writer
-Script Writer
-Sculptor
-Seaman
-Seamstress
-Secretary
-Security Consultant
-Security Controller
-Security Guard
-Security Officer
-Servant
-Service Engineer
-Service Manager
-Share Dealer
-Sheet Metal Worker
-Shelf Filler
-Shelter Warden
-Shepherd
-Sheriff
-Sheriff Clerk
-Sheriff Principal
-Shift Controller
-Ship Broker
-Ship Builder
-Shipping Clerk
-Shipping Officer
-Shipwright
-Shipyard Worker
-Shoe Maker
-Shoe Repairer
-Shooting Instructor
-Shop Assistant
-Shop Fitter
-Shop Keeper
-Shop Manager
-Shop Proprietor
-Shot Blaster
-Show Jumper
-Showman
-Shunter
-Sign Maker
-Signalman
-Signwriter
-Site Agent
-Site Engineer
-Skipper
-Slater
-Slaughterman
-Smallholder
+Screen Shop
+Sculpture
+Sculpture Museum
+Sea Port
+Seafood Market
+Seafood Restaurant
+Seafood Wholesaler
+Seaplane Base
+Second-hand CD Shop
+Second-hand shop
+Secondary School
+Secondary school
+Secondhand Shop
+Security Service
+Self Defence School
+Seminary
+Septic Tank Service
+Serbian Restaurant
+Sewing Company
+Sewing Shop
+Sharpening Service
+Shed Builder
+Sheet Music Shop
+Shelving Shop
+Shinto Shrine
+Shipping Service
+Shipyard
+Shoe Repair Shop
+Shoe Shop
+Shooting Range
+Shop
+Shopping Centre
+Shopping outlet
+Shower Screen Shop
+Shrine
+Sichuan Restaurant
+Sicilian Restaurant
+Signwriters
+Silk Plant Shop
+Silversmith
+Skate Park
+Skate Shop
+Skateboard Shop
+Ski Centre
+Ski Hire Service
+Ski Resort
+Ski Shop
+Skin Care Clinic
+Skydiving Centre
+Skylight Contractor
+Snack Bar
+Snowboard Shop
+Snowmobile Dealer
+Soba Noodle Shop
 Social Worker
-Software Consultant
-Software Engineer
-Soldier
-Solicitor
-Song Writer
-Sound Artist
-Sound Engineer
-Sound Technician
-Special Constable
-Special Needs
-Speech Therapist
-Sports Administrator
-Sports Coach
-Sports Commentator
-Sportsman
-Sportsperson
-Sportswoman
-Spring Maker
-Stable Hand
-Staff Nurse
-Stage Director
-Stage Hand
-Stage Manager
-Stage Mover
-Station Manager
-Stationer
-Statistician
-Steel Erector
-Steel Worker
-Steeplejack
-Stenographer
-Steward
-Stewardess
-Stock Controller
-Stock Manager
-Stockbroker
-Stockman
-Stocktaker
-Stone Cutter
-Stone Sawyer
-Stonemason
-Store Detective
-Storeman
-Storewoman
-Street Entertainer
-Street Trader
-Stud Hand
-Student
-Student Nurse
-Student Teacher
-Studio Manager
-Sub-Postmaster
-Sub-Postmistress
-Supervisor
-Supply Teacher
+Sod Supplier
+Sofa Store
+Softball Club
+Softball Field
+Software Company
+Soup Kitchen
+Soup Restaurant
+Soup restaurant
+Souvenir Shop
+Spa
+Spa Repair Service
+Spa Resort
+Spa and Health Club
+Spanish Restaurant
+Sperm Bank
+Spice Shop
+Sporting Goods Shop
+Sports Bar
+Sports Card Shop
+Sports Complex
+Sports School
+Sportswear Shop
+Spring
+Spring Supplier
+Squash Club
+Squash Court
+Stable
+Stadium
+Stage
+Stair Contractor
+Stamp Shop
+State Park
+State School
+Stationery Shop
+Statuary
+Steak House
+Steel Distributor
+Steel Drum Supplier
+Steel Manufacturer
+Stock Broker
+Stone Supplier
+Storage Facility
+Strip Club
+Structural Engineer
+Stucco Contractor
+Student Halls
+Subaru Dealer
+Sugar Shack
+Suit Hire
+Sunglasses Shop
+Supermarket
+Supplier
+Surety bond service
+Surf Shop
 Surgeon
+Surgical Clinic
 Surveyor
-Systems Analyst
-Systems Engineer
-Systems Manager
-TV Editor
-Tachograph Analyst
-Tacker
+Sushi Restaurant
+Suzuki Dealer
+Swedish Restaurant
+Swimming Basin
+Swimming Club
+Swimming Instructor
+Swimming Pool
+Swimwear Shop
+Swiss Restaurant
+Synagogue
+Syrian Restaurant
+T-shirt Company
+T-shirt Shop
+Tack Shop
+Taco Restaurant
+Tae Kwon Do School
+Tai Chi School
 Tailor
-Tank Farm Operative
-Tanker Driver
-Tanner
-Tattooist
+Takeout Restaurant
+Talent Agency
+Tamale Shop
+Tannery
+Tanning Studio
+Tapas Bar
+Tapas Restaurant
+Tattoo Shop
 Tax Advisor
-Tax Analyst
-Tax Assistant
-Tax Consultant
-Tax Inspector
-Tax Manager
-Tax Officer
-Taxi Controller
-Taxi Driver
+Tax Assessor
+Tax Lawyer
+Tax Office
+Tax Preparation
+Taxi Service
+Taxicab Stand
 Taxidermist
-Tea Blender
-Tea Taster
-Teacher
-Teachers Assistant
-Technical Advisor
-Technical Analyst
-Technical Assistant
-Technical Author
-Technical Clerk
-Technical Co-ordinator
-Technical Director
-Technical Editor
-Technical Engineer
-Technical Illustrator
-Technical Instructor
-Technical Liaison
-Technical Manager
-Technician
-Telecommunication
-Telecommunications
-Telegraphist
-Telemarketeer
-Telephone Engineer
-Telephonist
-Telesales Person
-Television Director
-Television Engineer
-Television Presenter
-Television Producer
-Telex Operator
-Temperature Time
-Tennis Coach
-Textile Consultant
-Textile Engineer
-Textile Technician
-Textile Worker
-Thatcher
-Theatre Manager
-Theatre Technician
-Theatrical Agent
-Therapist
-Thermal Engineer
-Thermal Insulator
-Ticket Agent
-Ticket Inspector
-Tiler
-Timber Inspector
-Timber Worker
-Tobacconist
-Toll Collector
-Tool Maker
-Tour Agent
-Tour Guide
-Town Clerk
-Town Planner
-Toy Maker
-Toy Trader
-Track Worker
-Tractor Driver
-Tractor Mechanic
-Trade Mark Agent
-Trade Union Official
-Trading Standards
-Traffic Warden
-Train Driver
-Trainee Manager
-Training Advisor
-Training Assistant
-Training Co-ordinator
-Training Consultant
-Training Instructor
-Training Manager
-Training Officer
-Transcriber
+Tea Room
+Tea Shop
+Technology Museum
+Telephone Company
+Telephone Exchange
+Telescope Shop
+Television Channel
+Television Tower
+Temp Agency
+Tempura Restaurant
+Tennis Club
+Tennis Court
+Tennis Instructor
+Tennis Shop
+Tent House Supplier
+Tex-Mex Restaurant
+Thai Restaurant
+Theme Park
+Tile Contractor
+Tile Shop
+Timber Merchant
+Timeshare Agency
+Title Company
+Tobacco Shop
+Toll Booth
+Toll Road Rest Stop
+Tongue Restaurant
+Tonkatsu Restaurant
+Tool & Die Shop
+Tool Manufacturer
+Tool Rental Service
+Tool Repair Shop
+Tool Shop
+Topsoil Supplier
+Tour Agency
+Tour Operator
+Tourist Attraction
+Tower
+Towing Service
+Townhouse Complex
+Toy Museum
+Toy Shop
+Toyota Dealer
+Tractor Dealer
+Tractor Repair Shop
+Trade School
+Trade Union
+Tradesmen
+Trading Card Shop
+Trailer Dealer
+Trailer Repair Shop
+Trailer Supply Shop
+Train Company
+Train Station
+Training Centre
+Tram Stop
 Translator
-Transport Clerk
-Transport Consultant
-Transport Controller
-Transport Engineer
-Transport Manager
-Transport Officer
-Transport Planner
-Travel Agent
-Travel Clerk
-Travel Consultant
-Travel Courier
-Travel Guide
-Travel Guide Writer
-Travel Representative
-Travelling Showman
-Treasurer
-Tree Feller
-Tree Surgeon
-Trichologist
-Trinity House Pilot
-Trout Farmer
-Tug Skipper
-Tunneller
-Turf Accountant
-Turkey Farmer
-Turner
+Transmission Shop
+Travel Agents
+Travel Clinic
+Tree Farm
+Tree Service
+Trial Lawyer
+Tribal Headquarters
+Trophy Shop
+Tropical Fish Shop
+Truck Dealer
+Truck Rental Agency
+Truck Repair Shop
+Truck Wash
+Trucking Company
+Trucking School
+Truss Manufacturer
+Tunisian Restaurant
+Turkish Restaurant
+Turkmen Restaurant
+Tuscan Restaurant
 Tutor
-Typesetter
-Typewriter Engineer
+Typewriter Supplier
 Typist
-Tyre Builder
-Tyre Fitter
-Tyre Inspector
-Tyre Technician
-Undertaker
-Underwriter
-Upholsterer
-Valuer
-Valve Technician
-Van Driver
-Vehicle Assessor
-Vehicle Body Worker
-Vehicle Engineer
-Vehicle Technician
-Ventriloquist
-Verger
-Veterinary Surgeon
-Vicar
-Video Artist
-Violin Maker
-Violinist
-Voluntary Worker
-Wages Clerk
-Waiter
-Waitress
-Warden
-Warehouse Manager
-Warehouseman
-Warehousewoman
-Watchmaker
-Weaver
-Weighbridge Clerk
-Weighbridge Operator
+Tyre Shop
+US Superfund Site
+Unagi Restaurant
+Underground Station
+Uniform Shop
+Unity Church
+University
+University Hospital
+Upholstery Shop
+Urologist
+Used Car Dealer
+Used Truck Dealer
+Used Tyre Shop
+Uzbeki Restaurant
+Vacuum Cleaner Shop
+Valeting service
+Van Rental Agency
+Vaporiser Shop
+Variety Shop
+Vascular Surgeon
+Vegan Restaurant
+Vehicle Parts Shop
+Vehicle Upholsterer
+Venetian Restaurant
+Veterinarian
+Video Arcade
+Video Game Shop
+Video shop
+Villa
+Vineyard
+Vineyard Church
+Violin Shop
+Visitor Centre
+Vocational School
+Volkswagen Dealer
+Volleyball Club
+Volleyball Court
+Volvo Dealer
+Voting Facility
+Walk-In Clinic
+Wallpaper Shop
+War Memorial
+War Museum
+Warehouse
+Watch Repair Shop
+Watch shop
+Water Mill
+Water Park
+Water Ski Shop
+Waterbed Shop
+Wax Museum
+Weather Station
+Web Hosting Company
+Website Designer
+Wedding Cake Shop
+Wedding Chapel
+Wedding Planner
+Wedding Service
+Wedding Shop
+Wedding Venue
+Weighbridge
+Weight-Loss Service
 Welder
-Welfare Assistant
-Welfare Officer
-Welfare Rights Officer
-Wheel Clamper
-Wholesale Newspaper
-Window Cleaner
-Window Dresser
-Windscreen Fitter
-Wine Merchant
-Wood Carver
-Wood Cutter
-Wood Worker
-Word Processing Operator
-Works Manager
-Writer
-Yacht Master
-Yard Manager
-Youth Hostel Warden
-Youth Worker
-Zoo Keeper
-Zoo Manager
-Zoologist
+Welding Supply Shop
+Welfare Office
+Wellness Centre
+Wellness Programme
+Welsh Restaurant
+Wesleyan Church
+Western Restaurant
+Wheel Shop
+Wheelchair Shop
+Wholesale Bakery
+Wholesale Florist
+Wholesale Grocer
+Wholesale Jeweller
+Wholesaler
+Wi-Fi Spot
+Wicker Shop
+Wig Shop
+Wildlife Sanctuary
+Windmill
+Window Supplier
+Windsurfing Shop
+Wine Bar
+Wine shop
+Winery
+Women's Shelter
+Wood Stove Shop
+Woodworker
+Wool shop
+Work Clothes Shop
+Wrapping Paper Shop
+Yacht Club
+Yacht Dealer
+Yakiniku Restaurant
+Yakitori Restaurant
+Yemenite Restaurant
+Yoga Studio
+Youth Centre
+Youth Club
+Youth Organisation
+Zoo

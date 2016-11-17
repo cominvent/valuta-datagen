@@ -1,7 +1,10 @@
 package com.ciber.skatt;
 
 import com.google.gson.Gson;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.lang.invoke.MethodHandles;
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.List;
@@ -12,6 +15,8 @@ import java.util.Random;
  * Created by janhoy on 16.11.2016.
  */
 public class Person {
+  private static final Logger log = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
+
   protected String kontoNr;
 
   public String getBirthDate() {
@@ -66,6 +71,14 @@ public class Person {
     p.birthDate = RandomUtil.randomBirthDate();
     p.ssn = RandomUtil.randomSsn(p.birthDate);
     p.kontoNr = RandomUtil.randomAccount();
+    p.fromDate = Instant.ofEpochSecond(random.nextInt(1479339500));
+    p.toDate = Instant.ofEpochSecond(random.nextInt(1479339500));
+    if (p.fromDate.isAfter(p.toDate)) {
+      Instant from = p.fromDate;
+      p.fromDate = p.toDate;
+      p.toDate = from;
+    }
+      
     return p;
   }
 

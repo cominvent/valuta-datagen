@@ -1,10 +1,12 @@
 package com.ciber.skatt;
 
-import org.springframework.core.io.ClassPathResource;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.invoke.MethodHandles;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -17,6 +19,8 @@ import static com.ciber.skatt.AbstractGenerator.random;
  * Created by janhoy on 16.11.2016.
  */
 public class RandomUtil {
+  private static final Logger log = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
+
   private static List<String> boys_no = readLines("firstname_boy_no.csv");
   private static List<String> girls_no = readLines("firstname_girl_no.csv");
   private static List<String> lasts_no = readLines("lastnames_no.csv");
@@ -56,7 +60,7 @@ public class RandomUtil {
   
   public static List<String> readLines(String file) {
     try {
-      InputStream is = new ClassPathResource(file).getInputStream();
+      InputStream is = ClassLoader.getSystemResourceAsStream(file);
       BufferedReader br = new BufferedReader(new InputStreamReader(is));
       return br.lines().collect(Collectors.toList());
     } catch (Exception e) {

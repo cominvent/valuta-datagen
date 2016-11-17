@@ -1,18 +1,21 @@
 package com.ciber.skatt;
 
 import com.google.gson.Gson;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.springframework.format.datetime.DateFormatter;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.lang.invoke.MethodHandles;
 import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 /**
  * Created by janhoy on 15.11.2016.
  */
 public class TransGenerator extends AbstractGenerator {
-  Log log = LogFactory.getLog(TransGenerator.class);
+  private static final Logger log = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
   
   private static final Gson gson = new Gson();
   private Config conf;
@@ -37,8 +40,8 @@ public class TransGenerator extends AbstractGenerator {
     Organization o = orgs.get(random.nextInt(orgs.size()));
     Foreign f = foreigns.get(o.getLinks().get(random.nextInt(o.getLinks().size())));
     float amountNo = random.nextFloat() * 10000000 + 100;
-    long span = o.getToDate().toEpochMilli() - o.getFromDate().toEpochMilli();
-    Instant transTime = o.getFromDate().plusMillis(Math.round(random.nextFloat() * span)); 
+    long span = (o.getToDate().toEpochMilli() - o.getFromDate().toEpochMilli()) / 1000;
+    Instant transTime = o.getFromDate().plusSeconds(Math.round(random.nextFloat() * span)); 
     String innut = random.nextBoolean() ? "I" : "U";
     
     Transaction t = new Transaction(o, f, amountNo, transTime, innut);
@@ -49,8 +52,8 @@ public class TransGenerator extends AbstractGenerator {
     Person p = persons.get(random.nextInt(persons.size()));
     Foreign f = foreigns.get(p.getLinks().get(random.nextInt(p.getLinks().size())));
     float amountNo = random.nextFloat() * 10000000 + 100;
-    long span = p.getToDate().toEpochMilli() - p.getFromDate().toEpochMilli();
-    Instant transTime = p.getFromDate().plusMillis(Math.round(random.nextFloat() * span)); 
+    long span = (p.getToDate().toEpochMilli() - p.getFromDate().toEpochMilli()) / 1000;
+    Instant transTime = p.getFromDate().plusSeconds(Math.round(random.nextFloat() * span)); 
     String innut = random.nextBoolean() ? "I" : "U";
     
     Transaction t = new Transaction(p, f, amountNo, transTime, innut);
@@ -131,7 +134,9 @@ public class TransGenerator extends AbstractGenerator {
     
     public String toString() {
       Map<String,Object> map = new HashMap<>();
-      map.put("transdato", new DateFormatter("yyyy-MM-dd'T'HH:mm:ss'Z'").print(new Date(transTime.toEpochMilli()), Locale.ROOT));
+      
+      map.put("transdato", LocalDateTime.ofInstant(transTime, ZoneId.of("UTC"))
+          .format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'")));
       map.put("nokbelop", amountNo);
       map.put("valutabelop", ExchangeRates.nokTo(amountNo, f.getCountry().getCurrencyCode()));
       map.put("valutakode", f.getCountry().getCurrencyCode());
@@ -156,6 +161,8 @@ public class TransGenerator extends AbstractGenerator {
       map.put("utlland", f.getCountry().getName());
       map.put("nokbelopstr", String.format("%.2f", amountNo));
       map.put("valutabelopstr", String.format("%.2f", map.get("nokbelop")));
+      map.put("valutakode", f.getCountry().getCurrencyCode());
+      
       return gson.toJson(map);
     } 
     
