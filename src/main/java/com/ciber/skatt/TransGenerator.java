@@ -97,10 +97,10 @@ public class TransGenerator extends AbstractGenerator {
 
 
   public static class Config {
-    public long numPersons = 10000;
-    public long numOrg = 10000;
-    public long numForeign = 5000;
-    public int maxConnectionsPerEntity = 10;
+    public long numPersons = 100000;
+    public long numOrg = 100000;
+    public long numForeign = 100000;
+    public int maxConnectionsPerEntity = 30;
     public int maxTransactionsPerEntity = 100;
     public Instant minDate = Instant.parse("2015-01-01T00:00:00Z");  
     public Instant maxDate = Instant.parse("2016-11-01T00:00:00Z");  
@@ -154,14 +154,14 @@ public class TransGenerator extends AbstractGenerator {
         map.put("norfodselsnr", p.getSsn());
         map.put("norfodselsdato", p.getSsn().substring(0, 6));
       }
-      map.put("utlfodselsnr", f.getBirthDate());
+      map.put("utlfodselsnr", f.getSsn());
       map.put("utlkontonr", f.getKontoNr());
       map.put("utletternavn", f.getLastName());
       map.put("utlfornavn", f.getFirstName());
       map.put("utlland", f.getCountry().getName());
+      map.put("location", f.getCountry().getLocation());
       map.put("nokbelopstr", String.format("%.2f", amountNo));
       map.put("valutabelopstr", String.format("%.2f", map.get("nokbelop")));
-      map.put("valutakode", f.getCountry().getCurrencyCode());
       
       return gson.toJson(map);
     } 

@@ -75,8 +75,8 @@ public class RandomUtil {
   }
   
   public static String getRandomDate() {
-    int minDay = (int) LocalDate.of(1900, 1, 1).toEpochDay();
-    int maxDay = (int) LocalDate.of(2015, 1, 1).toEpochDay();
+    int minDay = (int) LocalDate.of(2005, 1, 1).toEpochDay();
+    int maxDay = (int) LocalDate.of(2017, 6, 1).toEpochDay();
     long randomDay = minDay + random.nextInt(maxDay - minDay);
     LocalDate randomBirthDate = LocalDate.ofEpochDay(randomDay);
     return randomBirthDate.format(DateTimeFormatter.ofPattern("ddMMyy"));
@@ -106,7 +106,11 @@ public class RandomUtil {
   }
 
   public static String randomBirthDate() {
-    return getRandomDate();
+    int minDay = (int) LocalDate.of(1970, 1, 1).toEpochDay();
+    int maxDay = (int) LocalDate.of(2010, 1, 1).toEpochDay();
+    long randomDay = minDay + random.nextInt(maxDay - minDay);
+    LocalDate randomBirthDate = LocalDate.ofEpochDay(randomDay);
+    return randomBirthDate.format(DateTimeFormatter.ofPattern("ddMMyy"));
   }
 
   public static String randomFirstName() {

@@ -36,7 +36,7 @@ public class Foreign extends Person {
     f.firstName = RandomUtil.randomFirstName();
     f.lastName = RandomUtil.randomLastName();
     f.birthDate = RandomUtil.randomBirthDate();
-    f.id = RandomUtil.randomSsn(f.birthDate);
+    f.ssn = RandomUtil.randomSsn(f.birthDate);
     f.kontoNr = RandomUtil.randomAccount();
     f.country = Country.getRandom(random);
     return f;
@@ -45,7 +45,7 @@ public class Foreign extends Person {
   public String toString() {
     Map<String,Object> map = new HashMap<>();
     map.put("name", name);
-    map.put("ssn", id);
+    map.put("ssn", ssn);
     map.put("country", country.getName());
     map.put("currency", country.getCurrencyCode());
     return new Gson().toJson(map);

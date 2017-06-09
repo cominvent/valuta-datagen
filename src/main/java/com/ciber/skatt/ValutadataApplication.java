@@ -5,7 +5,6 @@ import org.elasticsearch.action.bulk.BackoffPolicy;
 import org.elasticsearch.action.bulk.BulkProcessor;
 import org.elasticsearch.action.bulk.BulkRequest;
 import org.elasticsearch.action.bulk.BulkResponse;
-import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.RestClient;
@@ -66,10 +65,10 @@ public class ValutadataApplication {
             TransportClient client = getEsClient(esHost);
             //RestClient client = getEsRestClient(esHost);
             BulkProcessor bulkProcessor = getEsBulkProcessor(client);
-            if (esClean) {
-              //client.performRequest("DELETE", "/"+esIndex, Collections.singletonMap("pretty", "true"));
-              client.delete(new DeleteRequest(esIndex));
-            }
+//            if (esClean) {
+//              //client.performRequest("DELETE", "/"+esIndex, Collections.singletonMap("pretty", "true"));
+//              client.delete(new DeleteRequest(esIndex));
+//            }
             for (int i = 0; i < rows; i++) {
               String doc = tg.generate();
               bulkProcessor.add(new IndexRequest(esIndex, type, ""+i).source(doc));

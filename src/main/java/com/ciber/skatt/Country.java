@@ -8,7 +8,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.invoke.MethodHandles;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Random;
 import java.util.stream.Collectors;
 
@@ -22,12 +24,21 @@ public class Country {
   private String code;
   private String currency;
   private String currencyCode;
+  private String location;
   
   private static List<Country> countries;
+
+  private static Map<String, String> geo;
 
   static {
     try {
       countries = read();
+      geo = readGeo();
+      for (Country c : countries) {
+        if (geo.containsKey(c.getCode())) {
+          c.setLocation(geo.get(c.getCode()));
+        }
+      }
     } catch (IOException e) {
       e.printStackTrace();
     }
@@ -41,7 +52,7 @@ public class Country {
   }
 
   public Country(String[] arr) {
-    new Country(arr[0], arr[1], arr[2], arr[3]);
+    this(arr[0], arr[1], arr[2], arr[3]);
   }
 
   public String getName() {
@@ -80,5 +91,21 @@ public class Country {
     InputStream is = ClassLoader.getSystemResourceAsStream("countries.csv");
     BufferedReader br = new BufferedReader(new InputStreamReader(is));
     return br.lines().map(l -> new Country(l.split(","))).collect(Collectors.toList());
+  }
+
+  public static Map<String, String> readGeo() throws IOException {
+    final Map<String,String> geos = new HashMap<>();
+    InputStream is = ClassLoader.getSystemResourceAsStream("country_location.csv");
+    BufferedReader br = new BufferedReader(new InputStreamReader(is));
+    br.lines().map(l -> l.split("\t")).forEach(a -> geos.put(a[0], a[1]+","+a[2]));
+    return geos;
+  }
+
+  public String getLocation() {
+    return location;
+  }
+
+  public void setLocation(String location) {
+    this.location = location;
   }
 }
