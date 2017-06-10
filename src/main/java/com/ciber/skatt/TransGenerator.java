@@ -1,15 +1,12 @@
 package com.ciber.skatt;
 
-import com.google.gson.Gson;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.lang.invoke.MethodHandles;
 import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by janhoy on 15.11.2016.
@@ -17,7 +14,6 @@ import java.util.*;
 public class TransGenerator extends AbstractGenerator {
   private static final Logger log = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
   
-  private static final Gson gson = new Gson();
   private Config conf;
   private List<Person> persons;
   private List<Organization> orgs;
@@ -97,74 +93,14 @@ public class TransGenerator extends AbstractGenerator {
 
 
   public static class Config {
-    public long numPersons = 100000;
-    public long numOrg = 100000;
-    public long numForeign = 100000;
-    public int maxConnectionsPerEntity = 30;
-    public int maxTransactionsPerEntity = 100;
-    public Instant minDate = Instant.parse("2015-01-01T00:00:00Z");  
-    public Instant maxDate = Instant.parse("2016-11-01T00:00:00Z");  
-  }
-
-
-  private class Transaction {
-    private Person p = null;
-    private Organization o = null;
-    private Foreign f;
-    private float amountNo;
-    private Instant transTime;
-    private String innut;
-
-    public Transaction(Person p, Foreign f, float amountNo, Instant transTime, String innut) {
-      this.p = p;
-      this.f = f;
-      this.amountNo = amountNo;
-      this.transTime = transTime;
-      this.innut = innut;
-    }
-
-    public Transaction(Organization o, Foreign f, float amountNo, Instant transTime, String innut) {
-      this.p = o;
-      this.o = o;
-      this.f = f;
-      this.amountNo = amountNo;
-      this.transTime = transTime;
-      this.innut = innut;
-    }
-    
-    public String toString() {
-      Map<String,Object> map = new HashMap<>();
-      
-      map.put("transdato", LocalDateTime.ofInstant(transTime, ZoneId.of("UTC"))
-          .format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'")));
-      map.put("nokbelop", amountNo);
-      map.put("valutabelop", ExchangeRates.nokTo(amountNo, f.getCountry().getCurrencyCode()));
-      map.put("valutakode", f.getCountry().getCurrencyCode());
-      map.put("innut", innut);
-      map.put("behandlingskode", "");
-      map.put("norstatsborgerland", "Norge");
-      map.put("norkontonr", p.getKontoNr());
-      map.put("norskpartstype", o==null?"person":"virksomhet");
-      if (o!=null) {
-        map.put("nororgnr", o.getOrgno());
-        map.put("noretternavn", p.getName());
-      } else {
-        map.put("noretternavn", p.getLastName());
-        map.put("norfornavn", p.getFirstName());
-        map.put("norfodselsnr", p.getSsn());
-        map.put("norfodselsdato", p.getSsn().substring(0, 6));
-      }
-      map.put("utlfodselsnr", f.getSsn());
-      map.put("utlkontonr", f.getKontoNr());
-      map.put("utletternavn", f.getLastName());
-      map.put("utlfornavn", f.getFirstName());
-      map.put("utlland", f.getCountry().getName());
-      map.put("location", f.getCountry().getLocation());
-      map.put("nokbelopstr", String.format("%.2f", amountNo));
-      map.put("valutabelopstr", String.format("%.2f", map.get("nokbelop")));
-      
-      return gson.toJson(map);
-    } 
-    
+    public long numPersons = 2000000; // 2 mill norwegians withdrawing/sending money abroad
+    public long numOrg = 300000; // 300k norwegian companies trading with foreign companies
+    public long numForeign = 1000000; // 1 million foreign parties
+//    public long numPersons = 2000; // 2 mill norwegians withdrawing/sending money abroad
+//    public long numOrg = 3000; // 300k norwegian companies trading with foreign companies
+//    public long numForeign = 1000; // 1 million foreign parties
+    public int maxConnectionsPerEntity = 50; // Max different transaction partners per person
+    public Instant minDate = Instant.parse("2005-01-01T00:00:00Z"); // global start date
+    public Instant maxDate = Instant.parse("2017-06-01T00:00:00Z"); // global end date
   }
 }

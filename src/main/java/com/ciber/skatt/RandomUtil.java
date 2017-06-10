@@ -31,25 +31,23 @@ public class RandomUtil {
 
   private static List<String> occu = readLines("occupations.txt");
   private static List<String> adj = readLines("adjectives.txt");
+
+  private static List<String> city_no = readLines("city_no.csv");
+  private static List<String> gater_no = readLines("gatenavn.txt");
+  private static List<String> streets = readLines("streetnames.txt");
+
   
   public static String randomNameNo(Random r) {
     boolean boy = r.nextBoolean();
     String first, last;
-    if (boy)
-      first = boys_no.get(r.nextInt(boys_no.size()));
-    else
-      first = girls_no.get(r.nextInt(girls_no.size()));
+    first = randomFirstNameNo();
     last = lasts_no.get(r.nextInt(lasts_no.size()));
     return first + " " + last;
   }
 
   public static String randomName(Random r) {
-    boolean boy = r.nextBoolean();
     String first, last;
-    if (boy)
-      first = boys.get(r.nextInt(boys.size()));
-    else
-      first = girls.get(r.nextInt(girls.size()));
+    first = randomFirstName();
     last = lasts.get(r.nextInt(lasts.size()));
     return first + " " + last;
   }
@@ -87,7 +85,7 @@ public class RandomUtil {
   }
 
   public static String randomAccount() {
-    return digits(4)+"."+digits(2)+"."+digits(5);
+    return digits(11);
   }
 
   private static String digits(int num) {
@@ -97,8 +95,19 @@ public class RandomUtil {
 
   public static String randomFirstNameNo() {
     boolean boy = random.nextBoolean();
-    return boy ? boys_no.get(random.nextInt(boys_no.size()))
-        : girls_no.get(random.nextInt(girls_no.size()));
+    String first;
+    if (boy) {
+      first = boys_no.get(random.nextInt(boys_no.size()));
+      if (random.nextInt(10) > 6) {
+        first += random.nextBoolean()?" ":"-" + boys_no.get(random.nextInt(boys_no.size()));
+      }
+    } else {
+      first = girls_no.get(random.nextInt(girls_no.size()));
+      if (random.nextInt(10) > 6) {
+        first += random.nextBoolean()?" ":"-" + girls_no.get(random.nextInt(girls_no.size()));
+      }
+    }
+    return first;
   }
 
   public static String randomLastNameNo() {
@@ -121,5 +130,33 @@ public class RandomUtil {
   public static String randomLastName() {
     return lasts.get(random.nextInt(lasts.size()));
   }
-  
+
+  public static String randomCityCSVNo() {
+    return city_no.get(random.nextInt(city_no.size()-1)+1);
+  }
+
+  public static String randomNorwayStreet() {
+    return gater_no.get(random.nextInt(gater_no.size()));
+  }
+
+  public static int randomGatenummer() {
+    return random.nextInt(200)+1;
+  }
+
+  public static int getNumber(int bound) {
+    return random.nextInt(bound);
+  }
+
+  public static String string(int len) {
+    StringBuffer sb = new StringBuffer(len);
+    for (int i=0; i<len; i++) {
+      char[] chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ".toCharArray();
+      sb.append(chars[random.nextInt(28)]);
+    }
+    return sb.toString();
+  }
+
+  public static String randomStreet() {
+    return streets.get(random.nextInt(streets.size()));
+  }
 }

@@ -18,6 +18,7 @@ public class Person {
   private static final Logger log = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
   protected String kontoNr;
+  protected String adresse;
 
   public String getBirthDate() {
     return birthDate;
@@ -46,6 +47,25 @@ public class Person {
 
   protected String lastName;
   protected String ssn;
+  protected String city;
+
+  public String getCity() {
+    return city;
+  }
+
+  public void setCity(String city) {
+    this.city = city;
+  }
+
+  public String getPostcode() {
+    return postcode;
+  }
+
+  public void setPostcode(String postcode) {
+    this.postcode = postcode;
+  }
+
+  protected String postcode;
 
   public Instant getFromDate() {
     return fromDate;
@@ -69,6 +89,10 @@ public class Person {
     p.firstName = RandomUtil.randomFirstNameNo();
     p.lastName = RandomUtil.randomLastNameNo();
     p.birthDate = RandomUtil.randomBirthDate();
+    String csv = RandomUtil.randomCityCSVNo();
+    p.city = csv.split(";")[1];
+    p.postcode = csv.split(";")[0];
+    p.adresse = RandomUtil.randomNorwayStreet() + " " + RandomUtil.randomGatenummer();
     p.ssn = RandomUtil.randomSsn(p.birthDate);
     p.kontoNr = RandomUtil.randomAccount();
     p.fromDate = Instant.ofEpochSecond(random.nextInt(1479339500));
@@ -108,5 +132,9 @@ public class Person {
 
   public void setKontoNr(String kontoNr) {
     this.kontoNr = kontoNr;
+  }
+
+  public String getAdresse() {
+    return adresse;
   }
 }

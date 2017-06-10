@@ -39,6 +39,9 @@ public class Foreign extends Person {
     f.ssn = RandomUtil.randomSsn(f.birthDate);
     f.kontoNr = RandomUtil.randomAccount();
     f.country = Country.getRandom(random);
+    f.city = f.country.getName() + " City";
+    f.postcode = f.getCountry().getCode() + "-" + String.format("%04d", RandomUtil.getNumber(9999));
+    f.adresse = RandomUtil.randomStreet() + " " + RandomUtil.randomGatenummer();
     return f;
   }
   
