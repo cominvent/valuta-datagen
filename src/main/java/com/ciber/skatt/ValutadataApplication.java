@@ -41,16 +41,17 @@ public class ValutadataApplication {
         String type = "trans";
         long seed = 1;
         long rows = 1;
+        int esBulkSize = 10000;
         switch (args.length) {
             case 3:
                 seed = Long.parseLong(args[2]);
             case 2:
-                type = args[1];
+                esBulkSize = Integer.parseInt(args[1]);
             case 1:
                 rows = Long.parseLong(args[0]);
                 break;
             default:
-                log.info("Usage: valuta <rows> [<type>] [<seed>]");
+                log.info("Usage: valuta <rows> [<bulksize>] [<seed>]");
                 System.exit(0);
         }
 
@@ -64,7 +65,7 @@ public class ValutadataApplication {
                         log.info("Indexing " + rows + " docs into ES " + esHost + ":9300/" + esIndex + "/trans");
                         TransportClient client = getEsClient(esHost);
                         //RestClient client = getEsRestClient(esHost);
-                        BulkProcessor bulkProcessor = getEsBulkProcessor(client);
+                        BulkProcessor bulkProcessor = getEsBulkProcessor(client, esBulkSize);
 //            if (esClean) {
 //              //client.performRequest("DELETE", "/"+esIndex, Collections.singletonMap("pretty", "true"));
 //              client.delete(new DeleteRequest(esIndex));
@@ -93,7 +94,7 @@ public class ValutadataApplication {
         }
     }
 
-    private BulkProcessor getEsBulkProcessor(Client client) {
+    private BulkProcessor getEsBulkProcessor(Client client, int esBulkSize) {
         BulkProcessor bulkProcessor = BulkProcessor.builder(
                 client,
                 new BulkProcessor.Listener() {
@@ -116,10 +117,10 @@ public class ValutadataApplication {
                         System.err.println("BulkFailure " + failure);
                     }
                 })
-                .setBulkActions(10000)
+                .setBulkActions(esBulkSize)
                 .setBulkSize(new ByteSizeValue(100, ByteSizeUnit.MB))
                 .setFlushInterval(TimeValue.timeValueSeconds(5))
-                .setConcurrentRequests(1)
+                .setConcurrentRequests(3)
                 .setBackoffPolicy(
                         BackoffPolicy.exponentialBackoff(TimeValue.timeValueMillis(100), 3))
                 .build();

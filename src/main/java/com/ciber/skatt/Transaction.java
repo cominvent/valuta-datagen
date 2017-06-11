@@ -93,7 +93,7 @@ class Transaction {
     }
 
     private String rev(String s) {
-        if (s == null) return s;
+        if (s == null) return "";
         return new StringBuilder(s).reverse().toString();
     }
 
