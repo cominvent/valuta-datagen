@@ -72,6 +72,9 @@ public class ValutadataApplication {
 //            }
                         for (int i = 0; i < rows; i++) {
                             String doc = tg.generate();
+                            if (i % 1000000 == 0) {
+                                System.err.println("\n"+i/1000000+" mill rows");
+                            }
                             bulkProcessor.add(new IndexRequest(esIndex, type, "" + i).source(doc));
                         }
                         bulkProcessor.flush();
