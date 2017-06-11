@@ -25,7 +25,7 @@ public class TransGenerator extends AbstractGenerator {
   
   @Override
   public String generate() {
-    boolean person = random.nextBoolean();
+    boolean person = random.nextInt(100) >= 70;
     if (person)
       return generatePersonTrans();
     else
@@ -35,7 +35,7 @@ public class TransGenerator extends AbstractGenerator {
   private String generateOrgTrans() {
     Organization o = orgs.get(random.nextInt(orgs.size()));
     Foreign f = foreigns.get(o.getLinks().get(random.nextInt(o.getLinks().size())));
-    float amountNo = random.nextFloat() * 10000000 + 100;
+    float amountNo = (float) Math.sqrt(random.nextFloat() * 10000000 + 100);
     long span = (o.getToDate().toEpochMilli() - o.getFromDate().toEpochMilli()) / 1000;
     Instant transTime = o.getFromDate().plusSeconds(Math.round(random.nextFloat() * span)); 
     String innut = random.nextBoolean() ? "I" : "U";
@@ -47,7 +47,7 @@ public class TransGenerator extends AbstractGenerator {
   private String generatePersonTrans() {
     Person p = persons.get(random.nextInt(persons.size()));
     Foreign f = foreigns.get(p.getLinks().get(random.nextInt(p.getLinks().size())));
-    float amountNo = random.nextFloat() * 10000000 + 100;
+    float amountNo = (float) Math.sqrt(random.nextFloat() * 100000 + 100);
     long span = (p.getToDate().toEpochMilli() - p.getFromDate().toEpochMilli()) / 1000;
     Instant transTime = p.getFromDate().plusSeconds(Math.round(random.nextFloat() * span)); 
     String innut = random.nextBoolean() ? "I" : "U";
