@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 esrally --pipeline=benchmark-only --target-hosts=127.0.0.1:9200 --cluster-health=yellow \
-  --track-repository=valutareg-rally --track=valutareg --challenge=query
+  --track-repository=valutareg-rally --track=valutareg --challenge=query --report-file bench-100m-result.txt
